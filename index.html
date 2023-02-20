@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+ <main>
+  <div id="input">
+    <label>ToDo: <input id="todo" class="form-bg-color"></label><br>
+    Preference: <select class="form-bg-color">
+      <option>low</option>
+      <option selected>mid</option>
+      <option>high</option>
+    </select>
+    <label>until: <input type="date" class="form-bg-color"></label><br>
+    <button id="submit">register</button>
+  </div>
+
+  <table>
+    
+    <tr>
+      <th id="todoLabel">ToDo</th>
+      <th>Preference</th>
+      <th id="dateLabel">until:</th>
+      <th>done</th>
+    </tr>
+
+  </table>
+ </main>
+ <script src="main.js"></script>
+</body>
+</html>
